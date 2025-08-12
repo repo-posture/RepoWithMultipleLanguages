@@ -1,0 +1,42 @@
+cabal-version:      3.0
+name:               sbom-test
+version:            0.1.0.0
+synopsis:           Haskell component for SBOM testing
+license:            MIT
+license-file:       LICENSE
+author:             SBOM Tester
+maintainer:         sbom@example.com
+category:           Testing
+build-type:         Simple
+
+common warnings
+    ghc-options: -Wall
+
+executable sbom-test
+    import:           warnings
+    main-is:          Main.hs
+    build-depends:    base ^>=4.16.4.0,
+                      aeson ^>=2.1.2.1,
+                      servant ^>=0.19.1,
+                      servant-server ^>=0.19.2,
+                      wai ^>=3.2.3,
+                      warp ^>=3.3.25,
+                      text ^>=2.0.2,
+                      http-client ^>=0.7.13.1,
+                      postgresql-simple ^>=0.6.5,
+                      lens ^>=5.2.2,
+                      mtl ^>=2.3.1
+    hs-source-dirs:   src
+    default-language: Haskell2010
+
+test-suite sbom-test-test
+    import:           warnings
+    default-language: Haskell2010
+    type:             exitcode-stdio-1.0
+    hs-source-dirs:   test
+    main-is:          Spec.hs
+    build-depends:
+        base ^>=4.16.4.0,
+        sbom-test,
+        hspec ^>=2.10.9,
+        QuickCheck ^>=2.14.3
