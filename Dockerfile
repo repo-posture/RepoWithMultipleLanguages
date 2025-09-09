@@ -52,12 +52,10 @@ RUN curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y \
     && echo "source $HOME/.cargo/env" >> /etc/profile
 
 # Install .NET Core
-RUN wget https://packages.microsoft.com/config/ubuntu/20.04/packages-microsoft-prod.deb -O packages-microsoft-prod.deb \
-    && dpkg -i packages-microsoft-prod.deb \
-    && apt-get update \
-    && apt-get install -y dotnet-sdk-3.1 \
-    && rm -rf /var/lib/apt/lists/* \
-    && rm packages-microsoft-prod.deb
+RUN apt-get update && apt-get install -y curl && \
+    curl -sSL https://dot.net/v1/dotnet-install.sh | bash /dev/stdin --channel LTS && \
+    echo 'export PATH="$PATH:$HOME/.dotnet"' >> /etc/profile && \
+    echo 'export DOTNET_ROOT="$HOME/.dotnet"' >> /etc/profile
 
 # Haskell
 RUN apt-get update && apt-get install -y \
@@ -70,14 +68,13 @@ RUN apt-get update && apt-get install -y \
     r-base \
     && rm -rf /var/lib/apt/lists/*
 
-# Install Elixir
-RUN apt-get update && apt-get install -y wget && \
-    wget https://packages.erlang-solutions.com/erlang-solutions_2.0_all.deb && \
-    dpkg -i erlang-solutions_2.0_all.deb && \
-    apt-get update && \
-    apt-get install -y esl-erlang elixir && \
-    rm -rf /var/lib/apt/lists/* && \
-    rm erlang-solutions_2.0_all.deb
+# # Install Elixir (via official repositories)
+# RUN apt-get update && apt-get install -y curl gnupg && \
+#     curl -fsSL https://packages.erlang-solutions.com/ubuntu/erlang_solutions.asc | gpg --dearmor -o /usr/share/keyrings/erlang-solutions.gpg && \
+#     echo "deb [signed-by=/usr/share/keyrings/erlang-solutions.gpg] https://packages.erlang-solutions.com/ubuntu focal contrib" > /etc/apt/sources.list.d/erlang-solutions.list && \
+#     apt-get update && \
+#     apt-get install -y esl-erlang elixir && \
+#     rm -rf /var/lib/apt/lists/*
 
 # Swift dependencies
 RUN apt-get update && apt-get install -y \
