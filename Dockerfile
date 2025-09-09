@@ -70,6 +70,15 @@ RUN apt-get update && apt-get install -y \
     r-base \
     && rm -rf /var/lib/apt/lists/*
 
+# Install Elixir
+RUN apt-get update && apt-get install -y wget && \
+    wget https://packages.erlang-solutions.com/erlang-solutions_2.0_all.deb && \
+    dpkg -i erlang-solutions_2.0_all.deb && \
+    apt-get update && \
+    apt-get install -y esl-erlang elixir && \
+    rm -rf /var/lib/apt/lists/* && \
+    rm erlang-solutions_2.0_all.deb
+
 # Swift dependencies
 RUN apt-get update && apt-get install -y \
     clang \
