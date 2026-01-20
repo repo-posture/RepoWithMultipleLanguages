@@ -13,9 +13,9 @@ let package = Package(
             targets: ["SBOMTestSwift"]),
     ],
     dependencies: [
+        .package(url: "https://github.com/Alamofire/Alamofire.git", exact: "5.4.0"),
         .package(url: "https://github.com/vapor/vapor.git", from: "4.76.0"),
-        .package(url: "https://github.com/Alamofire/Alamofire.git", from: "5.7.1"),
-        .package(url: "https://github.com/apple/swift-log.git", from: "1.5.2"),
+        .package(url: "https://github.com/apple/swift-log.git", exact: "1.4.0"),
         .package(url: "https://github.com/apple/swift-nio.git", from: "2.51.0"),
         .package(url: "https://github.com/kishikawakatsumi/KeychainAccess", from: "4.2.2"),
         .package(url: "https://github.com/pointfreeco/swift-composable-architecture", from: "0.54.0"),
