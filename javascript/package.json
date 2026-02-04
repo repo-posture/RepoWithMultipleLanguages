@@ -26,7 +26,7 @@
     "underscore": "1.12.0",
     "webpack": "5.75.0",
     "@babel/core": "7.21.0",
-    "body-parser": "2.2.0",
+    "body-parser": "2.2.2",
     "lodash": "4.17.20"
   },
   "devDependencies": {
@@ -34,4 +34,3 @@
     "eslint": "^8.40.0"
   }
 }
-
