@@ -126,7 +126,7 @@ require (
 	github.com/google/wire v0.5.0
 	github.com/samber/lo v1.38.1
 	golang.org/x/sync v0.3.0
-	golang.org/x/net v0.10.0
+	golang.org/x/net v0.50.1-0.20260209193701-0b37bdfdf0ad
 	golang.org/x/sys v0.8.0
 	golang.org/x/text v0.9.0
 	golang.org/x/time v0.3.0
