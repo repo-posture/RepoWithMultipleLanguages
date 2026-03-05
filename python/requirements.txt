@@ -3,7 +3,7 @@ Jinja2==2.11.3
 pillow==8.3.2
 urllib3==1.26.5
 requests==2.31.0
-flask==2.3.2
+flask==23.12.28
 numpy==1.24.4
 pandas==2.0.1
 scikit-learn==1.2.2
