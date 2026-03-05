@@ -9,7 +9,7 @@ pandas==2.0.1
 scikit-learn==1.2.2
 pytest==7.3.1
 black==23.3.0
-fastapi==0.95.2
+fastapi==0.129.0
 uvicorn==0.22.0
 sqlalchemy==2.0.12
 tornado==6.3.2
