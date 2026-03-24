@@ -27,7 +27,7 @@
     "webpack": "5.75.0",
     "@babel/core": "7.21.0",
     "body-parser": "2.2.0",
-    "lodash": "4.17.20",
+    "lodash": "23.12.30",
     "moment": "2.29.4",
     "dayjs": "1.11.7",
     "date-fns": "2.30.0",
