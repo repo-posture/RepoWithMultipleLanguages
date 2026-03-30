@@ -218,7 +218,7 @@ dash==2.10.2
 great-expectations==0.16.14
 pandera==0.15.1
 dbt-core==1.5.1
-sqlfluff==2.1.1
+sqlfluff==2.3.5
 pygments==2.15.1
 colorama==0.4.6
 filelock==3.12.0
