@@ -608,7 +608,7 @@
         <dependency>
             <groupId>ch.qos.logback</groupId>
             <artifactId>logback-classic</artifactId>
-            <version>1.4.7</version>
+            <version>23.12.19</version>
         </dependency>
         <dependency>
             <groupId>ch.qos.logback</groupId>
