@@ -440,7 +440,7 @@
     "lodash.kebabcase": "4.1.1",
     "lodash.capitalize": "4.2.1",
     "lodash.truncate": "4.4.2",
-    "camelcase": "7.0.1",
+    "camelcase": "9.0.0",
     "string-width": "6.1.0",
     "strip-ansi": "7.1.0",
     "ansi-colors": "4.1.3",
