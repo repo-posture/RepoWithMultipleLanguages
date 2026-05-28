@@ -101,7 +101,7 @@ azure-identity==1.13.0
 azure-cosmos==4.4.0
 azure-keyvault-secrets==4.7.0
 docker==6.1.2
-kubernetes==26.1.0
+kubernetes==36.0.0
 ansible==8.0.0
 fabric==3.1.0
 paramiko==3.2.0
