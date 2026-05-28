@@ -168,7 +168,7 @@ apscheduler==3.10.1
 schedule==1.2.0
 tenacity==8.2.2
 backoff==2.2.1
-cachetools==5.3.1
+cachetools==7.1.4
 diskcache==5.6.1
 lxml==4.9.2
 beautifulsoup4==4.12.2
