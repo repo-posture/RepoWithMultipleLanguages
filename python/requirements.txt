@@ -150,7 +150,7 @@ rich==13.4.1
 tqdm==4.65.0
 python-dateutil==2.8.2
 arrow==1.2.3
-pendulum==2.1.2
+pendulum==3.2.0
 pytz==2023.3
 babel==2.12.1
 cryptography==41.0.1
