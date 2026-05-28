@@ -139,7 +139,7 @@ grpcio==1.54.2
 grpcio-tools==1.54.2
 marshmallow==3.19.0
 pydantic==1.10.8
-attrs==23.1.0
+attrs==26.1.0
 cattrs==23.1.2
 orjson==3.9.0
 ujson==5.7.0
