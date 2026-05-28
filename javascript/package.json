@@ -384,7 +384,7 @@
     "micromatch": "4.0.5",
     "fast-glob": "3.2.12",
     "globby": "13.1.4",
-    "ignore": "5.2.4",
+    "ignore": "7.0.5",
     "simple-git": "3.18.0",
     "tar": "6.1.15",
     "archiver": "5.3.1",
