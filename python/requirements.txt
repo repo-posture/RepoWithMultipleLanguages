@@ -48,7 +48,7 @@ altair==5.0.1
 statsmodels==0.14.0
 sympy==1.12
 networkx==3.1
-xgboost==1.7.5
+xgboost==3.2.0
 lightgbm==3.3.5
 catboost==1.2
 tensorflow==2.12.0
