@@ -199,7 +199,7 @@ opentelemetry-api==1.18.0
 opentelemetry-sdk==1.18.0
 graphene==3.2.2
 strawberry-graphql==0.185.0
-websockets==11.0.3
+websockets==16.0
 channels==4.0.0
 pika==1.3.2
 confluent-kafka==2.1.1
