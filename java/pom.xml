@@ -2093,7 +2093,7 @@
         <dependency>
             <groupId>com.twilio.sdk</groupId>
             <artifactId>twilio</artifactId>
-            <version>9.6.1</version>
+            <version>9.15.1</version>
         </dependency>
         <dependency>
             <groupId>com.sendgrid</groupId>
