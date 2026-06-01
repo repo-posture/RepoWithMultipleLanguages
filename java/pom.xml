@@ -2368,7 +2368,7 @@
         <dependency>
             <groupId>org.jooq</groupId>
             <artifactId>jooq-codegen</artifactId>
-            <version>3.18.4</version>
+            <version>3.21.4</version>
         </dependency>
         <dependency>
             <groupId>org.elasticsearch.client</groupId>
