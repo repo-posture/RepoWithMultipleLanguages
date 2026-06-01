@@ -420,7 +420,7 @@
     "statuses": "2.0.1",
     "vary": "1.1.2",
     "range-parser": "1.2.1",
-    "finalhandler": "1.2.0",
+    "finalhandler": "2.1.1",
     "destroy": "1.2.0",
     "encodeurl": "1.0.2",
     "merge-descriptors": "1.0.1",
