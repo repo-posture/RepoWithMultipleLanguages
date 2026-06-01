@@ -928,27 +928,27 @@
         <dependency>
             <groupId>org.glassfish.jersey.core</groupId>
             <artifactId>jersey-server</artifactId>
-            <version>3.1.1</version>
+            <version>3.1.11</version>
         </dependency>
         <dependency>
             <groupId>org.glassfish.jersey.core</groupId>
             <artifactId>jersey-client</artifactId>
-            <version>3.1.1</version>
+            <version>3.1.11</version>
         </dependency>
         <dependency>
             <groupId>org.glassfish.jersey.containers</groupId>
             <artifactId>jersey-container-servlet</artifactId>
-            <version>3.1.1</version>
+            <version>3.1.11</version>
         </dependency>
         <dependency>
             <groupId>org.glassfish.jersey.inject</groupId>
             <artifactId>jersey-hk2</artifactId>
-            <version>3.1.1</version>
+            <version>3.1.11</version>
         </dependency>
         <dependency>
             <groupId>org.glassfish.jersey.media</groupId>
             <artifactId>jersey-media-json-jackson</artifactId>
-            <version>3.1.1</version>
+            <version>3.1.11</version>
         </dependency>
         <dependency>
             <groupId>io.grpc</groupId>
@@ -1378,7 +1378,7 @@
         <dependency>
             <groupId>org.modelmapper</groupId>
             <artifactId>modelmapper</artifactId>
-            <version>3.1.1</version>
+            <version>3.1.11</version>
         </dependency>
         <dependency>
             <groupId>org.mapstruct</groupId>
@@ -2613,7 +2613,7 @@
         <dependency>
             <groupId>org.glassfish.jersey.core</groupId>
             <artifactId>jersey-common</artifactId>
-            <version>3.1.1</version>
+            <version>3.1.11</version>
         </dependency>
         <dependency>
             <groupId>io.grpc</groupId>
