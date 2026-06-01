@@ -1223,7 +1223,7 @@
         <dependency>
             <groupId>io.micrometer</groupId>
             <artifactId>micrometer-registry-prometheus</artifactId>
-            <version>1.11.0</version>
+            <version>1.17.0-M1</version>
         </dependency>
         <dependency>
             <groupId>io.micrometer</groupId>
