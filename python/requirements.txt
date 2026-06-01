@@ -109,7 +109,7 @@ celery==5.3.0
 kombu==5.3.0
 dramatiq==1.14.2
 rq==1.15.1
-huey==2.4.5
+huey==2.6.0
 pytest-cov==4.1.0
 pytest-mock==3.10.0
 pytest-asyncio==0.21.0
