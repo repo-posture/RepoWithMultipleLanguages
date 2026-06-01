@@ -2073,7 +2073,7 @@
         <dependency>
             <groupId>org.jetbrains.kotlinx</groupId>
             <artifactId>kotlinx-serialization-json</artifactId>
-            <version>1.5.1</version>
+            <version>1.11.0</version>
         </dependency>
         <dependency>
             <groupId>org.jetbrains</groupId>
