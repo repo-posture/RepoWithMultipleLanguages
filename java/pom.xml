@@ -343,7 +343,7 @@
         <dependency>
             <groupId>org.springframework.data</groupId>
             <artifactId>spring-data-r2dbc</artifactId>
-            <version>3.0.5</version>
+            <version>4.1.0-M1</version>
         </dependency>
         <dependency>
             <groupId>org.springframework.data</groupId>
