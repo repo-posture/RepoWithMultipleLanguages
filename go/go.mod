@@ -120,7 +120,7 @@ require (
 	github.com/grpc-ecosystem/go-grpc-middleware v1.4.0
 	go.opentelemetry.io/otel v1.16.0
 	go.opentelemetry.io/otel/sdk v1.16.0
-	github.com/getsentry/sentry-go v0.22.0
+	github.com/getsentry/sentry-go v0.42.1-0.20260127102326-dabae998776f
 	github.com/rs/zerolog v1.29.1
 	go.uber.org/fx v1.19.3
 	github.com/google/wire v0.5.0
