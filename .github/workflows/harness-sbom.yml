@@ -2,9 +2,9 @@ name: Harness SBOM Generation
 
 on:
   push:
-    branches: [main]
+    branches: [main, workflow]
   pull_request:
-    branches: [main]
+    branches: [main, workflow]
   workflow_dispatch:
 
 jobs:
@@ -20,6 +20,12 @@ jobs:
 
       - name: Build Docker image
         run: docker build -t repo-with-multiple-languages:${{ github.sha }} .
+
+      - name: Log in to Docker Hub
+        uses: docker/login-action@v3
+        with:
+          username: ${{ secrets.DOCKERHUB_USERNAME }}
+          password: ${{ secrets.DOCKERHUB_TOKEN }}
 
       - name: SBOM Generation
         uses: harness/github-actions/sbom-generation@1.1.0
