@@ -1,0 +1,36 @@
+name: Harness SBOM Generation
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  sbom:
+    name: Build image and generate SBOM
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v3
+
+      - name: Build Docker image
+        run: docker build -t repo-with-multiple-languages:${{ github.sha }} .
+
+      - name: SBOM Generation
+        uses: harness/github-actions/sbom-generation@1.1.0
+        with:
+          HARNESS_ACCOUNT_URL: ${{ secrets.HARNESS_ACCOUNT_URL }}
+          HARNESS_ACCOUNT_ID: ${{ secrets.HARNESS_ACCOUNT_ID }}
+          HARNESS_ORG_ID: ${{ secrets.HARNESS_ORG_ID }}
+          HARNESS_PROJECT_ID: ${{ secrets.HARNESS_PROJECT_ID }}
+          HARNESS_API_KEY: ${{ secrets.HARNESS_API_KEY }}
+          VAULT_ADDR: ${{ secrets.VAULT_ADDR }}
+          TARGET: repo-with-multiple-languages:${{ github.sha }}
+          TOOL: Syft
+          FORMAT: spdx-json
+          ATTEST: false
