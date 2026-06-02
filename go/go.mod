@@ -43,7 +43,7 @@ require (
 	google.golang.org/grpc v1.55.0
 	google.golang.org/api v0.126.0
 	cloud.google.com/go/storage v1.30.1
-	cloud.google.com/go/bigquery v1.52.0
+	cloud.google.com/go/bigquery v1.77.0
 	cloud.google.com/go/pubsub v1.31.0
 	cloud.google.com/go/firestore v1.10.0
 	cloud.google.com/go/spanner v1.46.0
