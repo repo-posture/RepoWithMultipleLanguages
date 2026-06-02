@@ -123,7 +123,7 @@ require (
 	github.com/getsentry/sentry-go v0.22.0
 	github.com/rs/zerolog v1.29.1
 	go.uber.org/fx v1.19.3
-	github.com/google/wire v0.5.0
+	github.com/google/wire v0.7.0
 	github.com/samber/lo v1.38.1
 	golang.org/x/sync v0.3.0
 	golang.org/x/net v0.10.0
