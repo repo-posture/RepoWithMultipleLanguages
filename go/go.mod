@@ -66,7 +66,7 @@ require (
 	gorm.io/driver/postgres v1.5.2
 	gorm.io/driver/mysql v1.5.1
 	gorm.io/driver/sqlite v1.5.1
-	entgo.io/ent v0.12.3
+	entgo.io/ent v0.14.6
 	github.com/Masterminds/squirrel v1.5.4
 	github.com/segmentio/kafka-go v0.4.40
 	github.com/streadway/amqp v1.1.0
