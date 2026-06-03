@@ -46,7 +46,7 @@ require (
 	cloud.google.com/go/bigquery v1.52.0
 	cloud.google.com/go/pubsub v1.31.0
 	cloud.google.com/go/firestore v1.10.0
-	cloud.google.com/go/spanner v1.46.0
+	cloud.google.com/go/spanner v1.91.0
 	cloud.google.com/go/logging v1.7.0
 	cloud.google.com/go/secretmanager v1.11.1
 	github.com/jmoiron/sqlx v1.3.5
