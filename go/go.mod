@@ -68,7 +68,7 @@ require (
 	gorm.io/driver/sqlite v1.5.1
 	entgo.io/ent v0.12.3
 	github.com/Masterminds/squirrel v1.5.4
-	github.com/segmentio/kafka-go v0.4.40
+	github.com/segmentio/kafka-go v0.4.50
 	github.com/streadway/amqp v1.1.0
 	github.com/nats-io/nats.go v1.27.0
 	github.com/nsqio/go-nsq v1.1.0
