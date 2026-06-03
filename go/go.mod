@@ -31,7 +31,7 @@ require (
 	github.com/aws/aws-sdk-go-v2/service/sns v1.20.11
 	github.com/aws/aws-sdk-go-v2/service/lambda v1.35.0
 	github.com/aws/aws-sdk-go-v2/service/iam v1.20.0
-	github.com/aws/aws-sdk-go-v2/service/sts v1.19.0
+	github.com/aws/aws-sdk-go-v2/service/sts v1.41.6
 	github.com/aws/aws-sdk-go-v2/service/kms v1.22.0
 	github.com/aws/aws-sdk-go-v2/service/ses v1.15.0
 	github.com/aws/aws-sdk-go-v2/service/cloudwatch v1.26.0
