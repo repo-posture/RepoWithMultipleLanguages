@@ -124,7 +124,7 @@ require (
 	github.com/rs/zerolog v1.29.1
 	go.uber.org/fx v1.19.3
 	github.com/google/wire v0.5.0
-	github.com/samber/lo v1.38.1
+	github.com/samber/lo v1.53.0
 	golang.org/x/sync v0.3.0
 	golang.org/x/net v0.10.0
 	golang.org/x/sys v0.8.0
