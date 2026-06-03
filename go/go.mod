@@ -73,7 +73,7 @@ require (
 	github.com/nats-io/nats.go v1.27.0
 	github.com/nsqio/go-nsq v1.1.0
 	github.com/go-playground/validator/v10 v10.14.0
-	github.com/stretchr/testify v1.8.4
+	github.com/stretchr/testify v1.11.1
 	github.com/onsi/ginkgo/v2 v2.11.0
 	github.com/onsi/gomega v1.27.8
 	github.com/golang/mock v1.6.0
