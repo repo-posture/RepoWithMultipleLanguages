@@ -45,7 +45,7 @@ require (
 	cloud.google.com/go/storage v1.30.1
 	cloud.google.com/go/bigquery v1.52.0
 	cloud.google.com/go/pubsub v1.31.0
-	cloud.google.com/go/firestore v1.10.0
+	cloud.google.com/go/firestore v1.21.1-0.20260115224542-b332d2fc7dcf
 	cloud.google.com/go/spanner v1.46.0
 	cloud.google.com/go/logging v1.7.0
 	cloud.google.com/go/secretmanager v1.11.1
