@@ -83,7 +83,7 @@ require (
 	github.com/testcontainers/testcontainers-go v0.20.1
 	github.com/PuerkitoBio/goquery v1.8.1
 	github.com/gocolly/colly/v2 v2.1.0
-	github.com/spf13/cobra v1.7.0
+	github.com/spf13/cobra v1.10.2-0.20251010135735-4c363afb59d5
 	github.com/urfave/cli/v2 v2.25.5
 	github.com/fatih/color v1.15.0
 	github.com/charmbracelet/bubbletea v0.24.1
