@@ -33,7 +33,7 @@ require (
 	github.com/aws/aws-sdk-go-v2/service/iam v1.20.0
 	github.com/aws/aws-sdk-go-v2/service/sts v1.19.0
 	github.com/aws/aws-sdk-go-v2/service/kms v1.22.0
-	github.com/aws/aws-sdk-go-v2/service/ses v1.15.0
+	github.com/aws/aws-sdk-go-v2/service/ses v1.34.26
 	github.com/aws/aws-sdk-go-v2/service/cloudwatch v1.26.0
 	github.com/aws/aws-sdk-go-v2/service/ec2 v1.98.0
 	github.com/aws/aws-sdk-go-v2/service/rds v1.44.0
