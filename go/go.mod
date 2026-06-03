@@ -102,7 +102,7 @@ require (
 	github.com/allegro/bigcache/v3 v3.1.0
 	github.com/dgraph-io/ristretto v0.1.1
 	github.com/mitchellh/mapstructure v1.5.0
-	github.com/spf13/cast v1.5.1
+	github.com/spf13/cast v1.9.3-0.20250710195236-ed018f48f3a8
 	github.com/google/uuid v1.3.0
 	github.com/rs/xid v1.5.0
 	github.com/shopspring/decimal v1.3.1
