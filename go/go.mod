@@ -118,7 +118,7 @@ require (
 	google.golang.org/protobuf v1.30.0
 	github.com/grpc-ecosystem/grpc-gateway/v2 v2.16.0
 	github.com/grpc-ecosystem/go-grpc-middleware v1.4.0
-	go.opentelemetry.io/otel v1.16.0
+	go.opentelemetry.io/otel v1.43.0
 	go.opentelemetry.io/otel/sdk v1.16.0
 	github.com/getsentry/sentry-go v0.22.0
 	github.com/rs/zerolog v1.29.1
