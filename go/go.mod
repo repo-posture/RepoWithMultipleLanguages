@@ -121,7 +121,7 @@ require (
 	go.opentelemetry.io/otel v1.16.0
 	go.opentelemetry.io/otel/sdk v1.16.0
 	github.com/getsentry/sentry-go v0.22.0
-	github.com/rs/zerolog v1.29.1
+	github.com/rs/zerolog v1.35.1
 	go.uber.org/fx v1.19.3
 	github.com/google/wire v0.5.0
 	github.com/samber/lo v1.38.1
