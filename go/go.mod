@@ -113,7 +113,7 @@ require (
 	github.com/BurntSushi/toml v1.3.2
 	github.com/tidwall/gjson v1.14.4
 	github.com/tidwall/sjson v1.2.5
-	github.com/goccy/go-json v0.10.2
+	github.com/goccy/go-json v0.10.6-0.20251028001429-e4877d51d546
 	github.com/vmihailenco/msgpack/v5 v5.3.5
 	google.golang.org/protobuf v1.30.0
 	github.com/grpc-ecosystem/grpc-gateway/v2 v2.16.0
