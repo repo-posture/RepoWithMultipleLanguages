@@ -95,7 +95,7 @@ require (
 	golang.org/x/oauth2 v0.8.0
 	github.com/coreos/go-oidc/v3 v3.6.0
 	github.com/robfig/cron/v3 v3.0.1
-	github.com/hibiken/asynq v0.24.1
+	github.com/hibiken/asynq v0.26.0
 	github.com/cenkalti/backoff/v4 v4.2.1
 	github.com/sony/gobreaker v0.5.0
 	github.com/patrickmn/go-cache v2.1.0+incompatible
