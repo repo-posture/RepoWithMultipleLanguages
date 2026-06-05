@@ -70,7 +70,7 @@ require (
 	github.com/Masterminds/squirrel v1.5.4
 	github.com/segmentio/kafka-go v0.4.40
 	github.com/streadway/amqp v1.1.0
-	github.com/nats-io/nats.go v1.27.0
+	github.com/nats-io/nats.go v1.48.1-0.20260105080442-0d0006983817
 	github.com/nsqio/go-nsq v1.1.0
 	github.com/go-playground/validator/v10 v10.14.0
 	github.com/stretchr/testify v1.8.4
