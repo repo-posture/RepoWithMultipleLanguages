@@ -8,7 +8,7 @@ require (
 	github.com/prometheus/client_golang v1.15.1
 	github.com/sirupsen/logrus v1.9.2
 	github.com/spf13/viper v1.15.0
-	go.uber.org/zap v1.24.0
+	go.uber.org/zap v1.28.0
 	github.com/gorilla/mux v1.8.0
 	github.com/gorilla/websocket v1.5.0
 	github.com/gorilla/handlers v1.5.1
