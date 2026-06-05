@@ -15,7 +15,7 @@ sqlalchemy==2.0.12
 tornado==6.3.2
 bottle==0.12.25
 cherrypy==18.8.0
-falcon==3.1.1
+falcon==4.2.0
 sanic==23.3.0
 starlette==0.27.0
 aiohttp==3.8.4
