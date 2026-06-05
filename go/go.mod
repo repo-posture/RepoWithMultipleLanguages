@@ -85,7 +85,7 @@ require (
 	github.com/gocolly/colly/v2 v2.1.0
 	github.com/spf13/cobra v1.7.0
 	github.com/urfave/cli/v2 v2.25.5
-	github.com/fatih/color v1.15.0
+	github.com/fatih/color v1.18.1-0.20241027083239-be536a2b567c
 	github.com/charmbracelet/bubbletea v0.24.1
 	github.com/charmbracelet/lipgloss v0.7.1
 	github.com/schollz/progressbar/v3 v3.13.1
