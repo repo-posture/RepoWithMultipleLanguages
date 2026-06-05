@@ -417,7 +417,7 @@
     "picomatch": "2.3.1",
     "content-type": "1.0.5",
     "content-disposition": "0.5.4",
-    "statuses": "2.0.1",
+    "statuses": "2.0.2",
     "vary": "1.1.2",
     "range-parser": "1.2.1",
     "finalhandler": "1.2.0",
