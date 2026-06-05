@@ -39,7 +39,7 @@ require (
 	github.com/aws/aws-sdk-go-v2/service/rds v1.44.0
 	github.com/aws/aws-sdk-go-v2/service/secretsmanager v1.19.8
 	github.com/aws/aws-sdk-go-v2/config v1.18.25
-	github.com/aws/aws-sdk-go-v2/credentials v1.13.24
+	github.com/aws/aws-sdk-go-v2/credentials v1.19.18
 	google.golang.org/grpc v1.55.0
 	google.golang.org/api v0.126.0
 	cloud.google.com/go/storage v1.30.1
