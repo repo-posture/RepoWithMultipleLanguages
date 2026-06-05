@@ -48,7 +48,7 @@ require (
 	cloud.google.com/go/firestore v1.10.0
 	cloud.google.com/go/spanner v1.46.0
 	cloud.google.com/go/logging v1.7.0
-	cloud.google.com/go/secretmanager v1.11.1
+	cloud.google.com/go/secretmanager v1.19.0
 	github.com/jmoiron/sqlx v1.3.5
 	github.com/lib/pq v1.10.9
 	github.com/jackc/pgx/v5 v5.3.1
