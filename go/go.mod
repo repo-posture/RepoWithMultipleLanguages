@@ -111,7 +111,7 @@ require (
 	github.com/pelletier/go-toml/v2 v2.0.8
 	gopkg.in/yaml.v3 v3.0.1
 	github.com/BurntSushi/toml v1.3.2
-	github.com/tidwall/gjson v1.14.4
+	github.com/tidwall/gjson v1.18.1-0.20241008011410-4a91ee1eba17
 	github.com/tidwall/sjson v1.2.5
 	github.com/goccy/go-json v0.10.2
 	github.com/vmihailenco/msgpack/v5 v5.3.5
