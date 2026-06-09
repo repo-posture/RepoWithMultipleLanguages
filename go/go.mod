@@ -20,7 +20,7 @@ require (
 	github.com/julienschmidt/httprouter v1.3.0
 	github.com/valyala/fasthttp v1.47.0
 	github.com/go-resty/resty/v2 v2.7.0
-	github.com/hashicorp/consul/api v1.22.0
+	github.com/hashicorp/consul/api v1.34.1
 	github.com/hashicorp/vault/api v1.9.2
 	github.com/hashicorp/go-multierror v1.1.1
 	github.com/hashicorp/go-retryablehttp v0.7.4
