@@ -1388,7 +1388,7 @@
         <dependency>
             <groupId>org.mapstruct</groupId>
             <artifactId>mapstruct-processor</artifactId>
-            <version>1.5.5.Final</version>
+            <version>1.7.0.Beta1</version>
         </dependency>
         <dependency>
             <groupId>com.github.javafaker</groupId>
