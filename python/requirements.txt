@@ -50,7 +50,7 @@ sympy==1.12
 networkx==3.1
 xgboost==1.7.5
 lightgbm==3.3.5
-catboost==1.2
+catboost==1.2.10
 tensorflow==2.12.0
 keras==2.12.0
 torch==2.0.1
