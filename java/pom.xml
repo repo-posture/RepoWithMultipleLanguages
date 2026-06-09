@@ -2108,7 +2108,7 @@
         <dependency>
             <groupId>com.braintreepayments.gateway</groupId>
             <artifactId>braintree-java</artifactId>
-            <version>3.22.0</version>
+            <version>3.49.0</version>
         </dependency>
         <dependency>
             <groupId>com.paypal.sdk</groupId>
