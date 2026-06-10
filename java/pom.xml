@@ -1938,7 +1938,7 @@
         <dependency>
             <groupId>org.apache.camel</groupId>
             <artifactId>camel-mail</artifactId>
-            <version>4.0.0-M3</version>
+            <version>4.17.0</version>
         </dependency>
         <dependency>
             <groupId>io.github.resilience4j</groupId>
