@@ -186,7 +186,7 @@ chardet==5.1.0
 charset-normalizer==3.1.0
 idna==3.4
 certifi==2023.5.7
-wrapt==1.15.0
+wrapt==1.17.1
 decorator==5.1.1
 boltons==23.0.0
 more-itertools==9.1.0
