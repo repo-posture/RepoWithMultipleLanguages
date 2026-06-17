@@ -23,7 +23,7 @@ require (
 	github.com/hashicorp/consul/api v1.22.0
 	github.com/hashicorp/vault/api v1.9.2
 	github.com/hashicorp/go-multierror v1.1.1
-	github.com/hashicorp/go-retryablehttp v0.7.4
+	github.com/hashicorp/go-retryablehttp v0.7.8
 	github.com/aws/aws-sdk-go-v2 v1.18.0
 	github.com/aws/aws-sdk-go-v2/service/s3 v1.33.1
 	github.com/aws/aws-sdk-go-v2/service/dynamodb v1.19.7
