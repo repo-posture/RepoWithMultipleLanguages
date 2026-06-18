@@ -284,7 +284,7 @@
     "multer": "1.4.5-lts.1",
     "formidable": "3.5.0",
     "supertest": "6.3.3",
-    "nock": "13.3.1",
+    "nock": "14.0.10",
     "sinon": "15.1.0",
     "chai": "4.3.7",
     "mocha": "10.2.0",
