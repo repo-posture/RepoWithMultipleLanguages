@@ -214,7 +214,7 @@ wandb==0.15.3
 optuna==3.2.0
 streamlit==1.23.1
 gradio==3.34.0
-dash==2.10.2
+dash==4.4.0
 great-expectations==0.16.14
 pandera==0.15.1
 dbt-core==1.5.1
