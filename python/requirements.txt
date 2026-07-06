@@ -63,7 +63,7 @@ huggingface-hub==0.15.1
 accelerate==0.20.3
 diffusers==0.17.1
 safetensors==0.3.1
-opencv-python==4.7.0.72
+opencv-python==5.0.0.93
 scikit-image==0.21.0
 spacy==3.5.3
 nltk==3.8.1
