@@ -3,7 +3,7 @@ module sbom-test-go
 go 1.20
 
 require (
-	github.com/gin-gonic/gin v1.7.0
+	github.com/gin-gonic/gin v1.12.0
 	github.com/go-sql-driver/mysql v1.7.1
 	github.com/prometheus/client_golang v1.15.1
 	github.com/sirupsen/logrus v1.9.2
