@@ -50,7 +50,7 @@ require (
 	cloud.google.com/go/logging v1.7.0
 	cloud.google.com/go/secretmanager v1.11.1
 	github.com/jmoiron/sqlx v1.3.5
-	github.com/lib/pq v1.10.9
+	github.com/lib/pq v1.11.2
 	github.com/jackc/pgx/v5 v5.3.1
 	github.com/mattn/go-sqlite3 v1.14.17
 	github.com/go-redis/redis/v9 v9.0.5
