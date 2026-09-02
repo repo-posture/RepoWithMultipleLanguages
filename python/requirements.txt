@@ -158,7 +158,7 @@ pyjwt==2.7.0
 python-jose==3.3.0
 passlib==1.7.4
 argon2-cffi==21.3.0
-python-dotenv==1.0.0
+python-dotenv==1.2.3
 pydantic-settings==2.0.1
 httptools==0.5.0
 python-multipart==0.0.6
