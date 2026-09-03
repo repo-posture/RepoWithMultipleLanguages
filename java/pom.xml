@@ -1138,12 +1138,12 @@
         <dependency>
             <groupId>org.apache.shiro</groupId>
             <artifactId>shiro-core</artifactId>
-            <version>1.11.0</version>
+            <version>3.0.0</version>
         </dependency>
         <dependency>
             <groupId>org.apache.shiro</groupId>
             <artifactId>shiro-web</artifactId>
-            <version>1.11.0</version>
+            <version>3.0.0</version>
         </dependency>
         <dependency>
             <groupId>org.ehcache</groupId>
@@ -1218,57 +1218,57 @@
         <dependency>
             <groupId>io.micrometer</groupId>
             <artifactId>micrometer-core</artifactId>
-            <version>1.11.0</version>
+            <version>3.0.0</version>
         </dependency>
         <dependency>
             <groupId>io.micrometer</groupId>
             <artifactId>micrometer-registry-prometheus</artifactId>
-            <version>1.11.0</version>
+            <version>3.0.0</version>
         </dependency>
         <dependency>
             <groupId>io.micrometer</groupId>
             <artifactId>micrometer-registry-datadog</artifactId>
-            <version>1.11.0</version>
+            <version>3.0.0</version>
         </dependency>
         <dependency>
             <groupId>io.micrometer</groupId>
             <artifactId>micrometer-registry-graphite</artifactId>
-            <version>1.11.0</version>
+            <version>3.0.0</version>
         </dependency>
         <dependency>
             <groupId>io.micrometer</groupId>
             <artifactId>micrometer-registry-influx</artifactId>
-            <version>1.11.0</version>
+            <version>3.0.0</version>
         </dependency>
         <dependency>
             <groupId>io.micrometer</groupId>
             <artifactId>micrometer-registry-jmx</artifactId>
-            <version>1.11.0</version>
+            <version>3.0.0</version>
         </dependency>
         <dependency>
             <groupId>io.micrometer</groupId>
             <artifactId>micrometer-registry-new-relic</artifactId>
-            <version>1.11.0</version>
+            <version>3.0.0</version>
         </dependency>
         <dependency>
             <groupId>io.micrometer</groupId>
             <artifactId>micrometer-registry-statsd</artifactId>
-            <version>1.11.0</version>
+            <version>3.0.0</version>
         </dependency>
         <dependency>
             <groupId>io.micrometer</groupId>
             <artifactId>micrometer-tracing</artifactId>
-            <version>1.11.0</version>
+            <version>3.0.0</version>
         </dependency>
         <dependency>
             <groupId>io.micrometer</groupId>
             <artifactId>micrometer-tracing-bridge-brave</artifactId>
-            <version>1.11.0</version>
+            <version>3.0.0</version>
         </dependency>
         <dependency>
             <groupId>io.micrometer</groupId>
             <artifactId>micrometer-tracing-bridge-otel</artifactId>
-            <version>1.11.0</version>
+            <version>3.0.0</version>
         </dependency>
         <dependency>
             <groupId>io.opentelemetry</groupId>
@@ -2458,7 +2458,7 @@
         <dependency>
             <groupId>org.apache.shiro</groupId>
             <artifactId>shiro-spring</artifactId>
-            <version>1.11.0</version>
+            <version>3.0.0</version>
         </dependency>
         <dependency>
             <groupId>io.opentelemetry</groupId>
