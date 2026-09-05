@@ -1,4 +1,4 @@
-Django==2.2.0
+Django==6.1.1
 Jinja2==2.11.3
 pillow==8.3.2
 urllib3==1.26.5
