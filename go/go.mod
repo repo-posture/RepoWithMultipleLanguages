@@ -91,7 +91,7 @@ require (
 	github.com/schollz/progressbar/v3 v3.13.1
 	github.com/golang-jwt/jwt/v5 v5.0.0
 	github.com/casbin/casbin/v2 v2.71.1
-	golang.org/x/crypto v0.9.0
+	golang.org/x/crypto v0.56.0
 	golang.org/x/oauth2 v0.8.0
 	github.com/coreos/go-oidc/v3 v3.6.0
 	github.com/robfig/cron/v3 v3.0.1
