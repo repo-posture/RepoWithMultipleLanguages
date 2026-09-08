@@ -141,7 +141,7 @@ marshmallow==3.19.0
 pydantic==1.10.8
 attrs==23.1.0
 cattrs==23.1.2
-orjson==3.9.0
+orjson==3.11.9
 ujson==5.7.0
 simplejson==3.19.1
 click==8.1.3
