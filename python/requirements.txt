@@ -223,6 +223,6 @@ pygments==2.15.1
 colorama==0.4.6
 filelock==3.12.0
 psutil==5.9.5
-virtualenv==20.23.0
+virtualenv==21.7.5
 setuptools==67.8.0
 wheel==0.40.0
