@@ -57,7 +57,7 @@ torch==2.0.1
 torchvision==0.15.2
 torchaudio==2.0.2
 transformers==4.30.1
-datasets==2.13.0
+datasets==5.0.1
 tokenizers==0.13.3
 huggingface-hub==0.15.1
 accelerate==0.20.3
