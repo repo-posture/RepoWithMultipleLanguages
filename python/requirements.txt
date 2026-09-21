@@ -217,7 +217,7 @@ gradio==3.34.0
 dash==2.10.2
 great-expectations==0.16.14
 pandera==0.15.1
-dbt-core==1.5.1
+dbt-core==1.11.8
 sqlfluff==2.1.1
 pygments==2.15.1
 colorama==0.4.6
