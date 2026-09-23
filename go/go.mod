@@ -107,7 +107,7 @@ require (
 	github.com/rs/xid v1.5.0
 	github.com/shopspring/decimal v1.3.1
 	github.com/dustin/go-humanize v1.0.1
-	github.com/yuin/goldmark v1.5.4
+	github.com/yuin/goldmark v1.8.6
 	github.com/pelletier/go-toml/v2 v2.0.8
 	gopkg.in/yaml.v3 v3.0.1
 	github.com/BurntSushi/toml v1.3.2
