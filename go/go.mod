@@ -128,7 +128,7 @@ require (
 	golang.org/x/sync v0.3.0
 	golang.org/x/net v0.10.0
 	golang.org/x/sys v0.8.0
-	golang.org/x/text v0.9.0
+	golang.org/x/text v0.42.1-0.20260914143235-d0ecd29e39d3
 	golang.org/x/time v0.3.0
 	golang.org/x/tools v0.9.3
 )
