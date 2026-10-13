@@ -54,7 +54,7 @@ require (
 	github.com/jackc/pgx/v5 v5.3.1
 	github.com/mattn/go-sqlite3 v1.14.17
 	github.com/go-redis/redis/v9 v9.0.5
-	go.mongodb.org/mongo-driver v1.11.6
+	go.mongodb.org/mongo-driver v1.17.9
 	github.com/elastic/go-elasticsearch/v8 v8.8.0
 	github.com/olivere/elastic/v7 v7.0.32
 	github.com/neo4j/neo4j-go-driver/v5 v5.9.0
