@@ -1023,7 +1023,7 @@
         <dependency>
             <groupId>io.netty</groupId>
             <artifactId>netty-codec</artifactId>
-            <version>4.1.92.Final</version>
+            <version>5.0.0.Alpha2</version>
         </dependency>
         <dependency>
             <groupId>io.netty</groupId>
