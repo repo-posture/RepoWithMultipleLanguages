@@ -115,7 +115,7 @@ require (
 	github.com/tidwall/sjson v1.2.5
 	github.com/goccy/go-json v0.10.2
 	github.com/vmihailenco/msgpack/v5 v5.3.5
-	google.golang.org/protobuf v1.30.0
+	google.golang.org/protobuf v1.36.12-0.20251217085206-60bc867371ed
 	github.com/grpc-ecosystem/grpc-gateway/v2 v2.16.0
 	github.com/grpc-ecosystem/go-grpc-middleware v1.4.0
 	go.opentelemetry.io/otel v1.16.0
