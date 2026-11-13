@@ -22,7 +22,7 @@ aiohttp==3.8.4
 httpx==0.24.1
 gunicorn==20.1.0
 waitress==2.1.2
-daphne==4.0.0
+daphne==4.2.3
 djangorestframework==3.14.0
 django-cors-headers==4.0.0
 django-filter==23.2
